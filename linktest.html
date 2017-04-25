@@ -4,12 +4,14 @@
 </head>
 <body>
 <a id="mylink" href="http://mysite.com">Click me</a><br />
+<a id="mylink" href="http://google.com">Click me</a><br />
 <script>
     url = document.getElementById('mylink').href;
     document.write('The URL is ' + url);
 
     for(j = 0; j < document.links.length; ++j)
         document.write(document.links[j].href + '<br>');
+    document.write(history.length);
 </script>
 </body>
 </html>
