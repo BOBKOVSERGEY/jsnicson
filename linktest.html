@@ -5,8 +5,11 @@
 <body>
 <a id="mylink" href="http://mysite.com">Click me</a><br />
 <script>
-    url = document.links.mylink.href;
+    url = document.getElementById('mylink').href;
     document.write('The URL is ' + url);
+
+    for(j = 0; j < document.links.length; ++j)
+        document.write(document.links[j].href + '<br>');
 </script>
 </body>
 </html>
