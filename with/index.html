@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>With</title>
+</head>
+<body>
+<script>
+    string = "Шустрая бурая лисица перепрыгивает через ленивую собаку";
+
+    with (string) {
+        document.write("В строке " + length + "символов <br>");
+        document.write("В верхнем регистре: " + toUpperCase());
+    }
+</script>
+</body>
+</html>

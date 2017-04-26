@@ -19,6 +19,15 @@
         document.write("b: " + true + "<br>"); // литерал константы
         document.write("d: " + myname + "<br>"); // литерал строковой переменной
         document.write("e: " + myage + "<br>"); // литерал числовой переменной
+
+        dayNumber = 340;
+        daysToNewYear = 366 - dayNumber;
+        if (daysToNewYear < 30) document.write("Скоро Новый Год!" + '<br>');
+
+        a = 1; b = 0;
+        document.write((a && b) + "<br>");
+        document.write((a || b) + "<br>");
+        document.write((!b) + "<br>");
     </script>
 </head>
 <body>
