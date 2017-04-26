@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        onerror = errorHandler;
+        document.writ("Добро пожаловать на этот сайт!"); // Преднамеренная ошибка
+
+        function errorHandler(message, url, line) {
+            out = "К сожалению обнаружена ошибка. \n\n";
+            out += "Ошибка: " + message + "\n";
+            out += "URL: " + url + "\n";
+            out += "Строка: " + line + "\n\n";
+            out += "Щелкните на кнопку OK для продолжения работы. \n\n";
+            alert(out);
+            return true;
+      }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
