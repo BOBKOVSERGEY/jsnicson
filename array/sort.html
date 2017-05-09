@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // Сортировка по алфавиту
+        sports = ["Football", "Tennis", "Baseball", "Hockey"]
+        sports.sort()
+        document.write(sports + "<br>")
+
+        // Сортировка по алфавиту в обратном порядке
+        sports = ["Football", "Tennis", "Baseball", "Hockey"]
+        sports.sort().reverse()
+        document.write(sports + "<br>")
+
+        // Сортировка чисел по возрастанию
+        numbers = [7, 23, 6, 74]
+        numbers.sort(function(a,b){return a - b})
+        document.write(numbers + "<br>")
+
+        // Сортировка чисел по убыванию
+        numbers = [7, 23, 6, 74]
+        numbers.sort(function(a,b){return b - a})
+        document.write(numbers + "<br>")
+    </script>
+</head>
+<body>
+
+</body>
+</html>
