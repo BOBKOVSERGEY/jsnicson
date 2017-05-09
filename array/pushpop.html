@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        sports = ["Football", "Tennis", "Baseball"]
+        document.write("Start = "      + sports +  "<br>")
+
+        sports.push("Hockey");
+        document.write("After Push = " + sports +  "<br>")
+
+        removed = sports.pop()
+        document.write("After Pop = "  + sports +  "<br>")
+        document.write("Removed = "    + removed + "<br>")
+
+        numbers = []
+
+        for (j=0 ; j<3 ; ++j)
+        {
+            numbers.push(j);
+            document.write("Pushed " + j + "<br>")
+        }
+
+        // Perform some other activity here
+        document.write("<br>")
+
+        document.write("Popped " + numbers.pop() + "<br>")
+        document.write("Popped " + numbers.pop() + "<br>")
+        document.write("Popped " + numbers.pop() + "<br>")
+    </script>
+</head>
+<body>
+
+</body>
+</html>
