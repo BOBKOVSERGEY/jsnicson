@@ -6,3 +6,10 @@ S('object').color = 'blue';
 S('object').fontSize = '30px';
 S('object').textAlign = 'center';
 S('object').lineHeight = '100px';
+
+O('object2').onmouseover = function () {
+  this.src = 'orange.png';
+}
+O('object2').onmouseout = function () {
+  this.src = 'apple.png';
+}
