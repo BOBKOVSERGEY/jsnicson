@@ -6,4 +6,7 @@ function showtime(object) {
 
 var handle = setInterval("showtime(elTime)", 1000);
 
+elTime.style.color = 'red';
+elTime.style.border = '1px solid #ccc';
+
 setTimeout("clearInterval(handle)", 10000);
