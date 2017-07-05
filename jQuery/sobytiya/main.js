@@ -31,4 +31,12 @@ $(function () {
       event.preventDefault();
     }
   })
+
+  $('.test').mouseover(function () {
+    $('.tooltip').html('Эй прикроти щекотать');
+  })
+
+  $('.test').mouseout(function () {
+    $('.tooltip').html('Куда же ты подевался');
+  })
 })
