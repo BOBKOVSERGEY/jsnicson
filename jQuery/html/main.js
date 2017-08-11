@@ -7,4 +7,9 @@
     $('#clean').on('click', function () {
       $('#quote').empty()
     })
+
+    var elWidth = $('.block-size').width();
+    var elWidthcss = $('.block-size').css('width');
+    console.log(elWidth);
+    console.log(elWidthcss);
   });
